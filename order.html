@@ -10,8 +10,8 @@
 <body>
  <center>
     <h1 class="thethingyatthetopofdaform">Order</h1>
-    <hr>
-    <hr>
+    <br>
+    <br>
     <form name="order" method="POST" data-netlify="true">
         <p>
           <label>Name <input type="text" name="name" /></label>
@@ -19,9 +19,18 @@
         <p>
           <label>Class <input type="text" name="name" /></label>
         </p>
-        <p>
-          <label>Special Requests <textarea name="special-request"></textarea></label>
-        </p>
+        <br>
+        <label for="color1">Color 1 </label>
+        <input type="text" name="color1" id="color1" required placeholder="Enter first color" />
+        
+        <label for="color2">Color 2 </label>
+        <input type="text" name="color2" id="color2" required placeholder="Enter second color" />
+        
+        <label for="color3">Color 3 (optional):</label>
+        <input type="text" name="color3" id="color3" placeholder="Enter third color (optional)" />
+        
+        <label for="color4">Color 4 (optional):</label>
+        <input type="text" name="color4" id="color4" placeholder="Enter fourth color (optional)" />
         <p>
           <button class="button-18" type="submit">Order</button>
         </p>
