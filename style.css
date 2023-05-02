@@ -16,6 +16,11 @@ font-size: 20px;
     font-size: 15px;
 }
 
+p {
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
 .button-18 {
   align-items: center;
   background-color: #0A66C2;
