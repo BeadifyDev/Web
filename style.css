@@ -7,18 +7,16 @@
     100% { transform: translatey(0px); }
 }
 .logo {
-    font-size: 3em;
+ font-size: 3em;
     overflow: hidden;
     transform: translatey(0px);
     animation: float 3s ease-in-out infinite;
     margin: 50px;
-}
-.logo{
-font-family: Quicksand;
+    font-family: Quicksand;
 font-size: 25px;
 }
 
-.slogan{
+.slogan {
     font-family: Poppins;
     font-size: 15px;
 }
