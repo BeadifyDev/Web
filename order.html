@@ -46,7 +46,14 @@
         <label for="color4">Color 4 </label>
         <input type="text" name="color4" id="color4" placeholder=" " /> 
         <br>
-        
+        <button id="calculateButton">Calculate Price</button>
+        <p id="priceText" style="display: none;">$2.00</p>
+      
+        <script>
+          document.getElementById("calculateButton").addEventListener("click", function() {
+            document.getElementById("priceText").style.display = "block";
+          });
+        </script>
         </div>
         <br>
           <button class="button-18" type="submit">Place Order</button>
