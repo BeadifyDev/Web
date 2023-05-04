@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <center>
+    <div class="navbar">
+        <div class="logo">
+        <a href="index.html"><h1>beadify</h1></a>
+        </div>
+        <div class="slogan">
+           Creators of the Bead Snake!
+        </div>
+        <br>
+         <hr>
+    <h1 class="thethingyatthetopofdaform">Purchase Gift Card</h1>
+    <br>
+    <br>
+    <form name="purchasegiftcards" method="POST" data-netlify="true" action="success.html">
+
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Class <input type="text" name="class" /></label>
+        </p>
+        <br>
+        <p>Amount</p>
+  <label>
+    <input name="amount" type="radio" id="5" value="$5" required placeholder=" " >
+    $5
+  </label>
+  <label>
+    <input name="amount" type="radio" id="10" value="$10" required placeholder=" " >
+    $10
+  </label>
+  <label>
+    <input name="amount" type="radio" id="20" value="$20" required placeholder=" " >
+    $20
+  </label>
+  <label>
+    <input name="amount" type="radio" id="50" value="$50" required placeholder=" " >
+    $50
+  </label>
+        <br>
+        <br>
+        <p id="priceText">Total: $0.00</p>
+      
+        <script> 
+       document.getElementById("5").addEventListener("click", function() {
+  document.getElementById("priceText").innerHTML = "$5.00";
+});
+document.getElementById("10").addEventListener("click", function() {
+  document.getElementById("priceText").innerHTML = "$10.00";
+});
+document.getElementById("20").addEventListener("click", function() {
+  document.getElementById("priceText").innerHTML = "$20.00";
+});
+document.getElementById("50").addEventListener("click", function() {
+  document.getElementById("priceText").innerHTML = "$50.00";
+});
+        </script>
+        </div>
+        <br>
+        <br>
+          <button class="button-18" type="submit">Place Order</button>
+        </p>
+      </form>
+      <p>Please make sure your order is serious, and that you have sufficient funds.</p>
+      <br>
+      <br>
+      <p>© 2023 Beadify Inc. <i>All rights reserved.</i></p>
+ </center>   
+</body>
+</html>
