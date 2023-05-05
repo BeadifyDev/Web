@@ -17,6 +17,8 @@
            Creators of the Bead Snake!
         </div>
         <br>
+        
+        <br>
          <hr>
     <h1 class="thethingyatthetopofdaform">Purchase Gift Card</h1>
     <br>
@@ -31,6 +33,7 @@
         </p>
         <br>
         <p>Amount</p>
+        <div class="colors">
   <label>
     <input name="amount" type="radio" id="5" value="$5" required placeholder=" " >
     $5
@@ -47,22 +50,23 @@
     <input name="amount" type="radio" id="50" value="$50" required placeholder=" " >
     $50
   </label>
+</div>
         <br>
         <br>
         <p id="priceText">Total: $0.00</p>
       
         <script> 
        document.getElementById("5").addEventListener("click", function() {
-  document.getElementById("priceText").innerHTML = "$5.00";
+  document.getElementById("priceText").innerHTML = "Total: $5.00";
 });
 document.getElementById("10").addEventListener("click", function() {
-  document.getElementById("priceText").innerHTML = "$10.00";
+  document.getElementById("priceText").innerHTML = "Total: $10.00";
 });
 document.getElementById("20").addEventListener("click", function() {
-  document.getElementById("priceText").innerHTML = "$20.00";
+  document.getElementById("priceText").innerHTML = "Total: $20.00";
 });
 document.getElementById("50").addEventListener("click", function() {
-  document.getElementById("priceText").innerHTML = "$50.00";
+  document.getElementById("priceText").innerHTML = "Total: $50.00";
 });
         </script>
         </div>
