@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Form</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
  <center>
@@ -51,26 +52,9 @@
     <input name="payment type" type="radio" value="cash" required placeholder=" " >
     Cash
   </label>
-  <label>
-    <input name="payment type" type="radio" value="giftcard" required placeholder=" " >
-    Gift Card
-  </label>
         <br>
         <br>
         <p id="priceText">Total: $0.00</p>
-      
-        <script>    
-        const basecolor = document.getElementById('basecolor');
-          const priceText = document.getElementById('priceText');
-      
-          basecolor.addEventListener('input', () => {
-            if (basecolor.value.trim() !== '') {
-              priceText.textContent = 'Total: $2.00';
-            } else {
-              priceText.textContent = 'Total: $0.00';
-            }
-          });
-        </script>
         </div>
         <br>
         <br>
