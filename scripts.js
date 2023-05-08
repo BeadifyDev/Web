@@ -1,4 +1,4 @@
 document.getElementById("basecolor").addEventListener("input", function() {
-    document.getElementById("priceText").innerHTML = "$" + this.value;
+    document.getElementById("priceText").innerHTML = "$2.00" + this.value;
   });
   
